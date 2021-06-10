@@ -9,7 +9,7 @@ import Concrete.StarbucksCustomerManager;
 import Entities.Customer;
 
 public class Main {
-
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		
 	        //BaseCustomerManager customerManager = new NeroCustomerManager(new MernisServiceAdapter());
